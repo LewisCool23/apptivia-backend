@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
@@ -18,4 +19,9 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
+=======
+    "start": "node server.js"
+  },
+  "dependencies": {}
+>>>>>>> 09299b8 (Restructure backend folder and update files)
 }
