@@ -19,6 +19,11 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
+// Root route for health check
+app.get('/', (req, res) => {
+  res.send('Apptivia Backend Running');
+});
+
 // Supabase setup
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
