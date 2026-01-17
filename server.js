@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv').config();
 const express = require('express');
 const http = require('http');
@@ -99,3 +100,6 @@ const PORT = process.env.SOCKET_IO_PORT || 4000;
 server.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+=======
+// ...existing code from /Users/adamss/Apptivia Platform/apptivia-backend/server.js
+>>>>>>> 09299b8 (Restructure backend folder and update files)
